@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #0006b7;
+    background-color: #1687ff;
+}
+  h1 {
+     color: darkgrey;
+  }
+
+
+  a {
+    color: #454545;
+  }
+
+  a :hover {
+    color: #1f6feb;
+  }
+  ul > li {
+    font-weight: bold;
+  }
+    h1 + p {
+        background-color: #0006b7;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    ul li:hover {
+        color: #1f6feb;
+    }
+    /* :nth-child pseudo-class */
+        background-color: #21262D;
+    
+        }
+    
+        /* :not(selector) Pseudo-class */
+    
+        p:not(:first-of-type) {
+    
+            text-decoration: underline;
+    
+        }
+    
+        /* ::before Pseudo-element */
+    
+        ul li::before {
+    
+            content: "🚀 ";
+    
+        }
+    
+        /* ::after Pseudo-element */
+    
+        a::after {
+    
+            content: " 🌌";
+    
+        }
+    
+        /* ::first-letter Pseudo-element */
+    
+        p::first-letter {
+    
+            font-size: 200%;
+    
+            color: #FF7B72;
+    
+        }
