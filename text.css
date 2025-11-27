@@ -2,10 +2,10 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #0006b7;
-    background-color: #1687ff;
+    background-color: #00264e;
 }
   h1 {
-     color: darkgrey;
+     color: rgb(96, 96, 96);
   }
 
 
@@ -14,19 +14,19 @@ body {
   }
 
   a :hover {
-    color: #1f6feb;
+    color: #0f5f99;
   }
   ul > li {
     font-weight: bold;
   }
     h1 + p {
-        background-color: #0006b7;
+        background-color: #595eea;
         padding: 10px;
         border-radius: 5px;
     }
     
     ul li:hover {
-        color: #1f6feb;
+        color: #002762;
     }
     /* :nth-child pseudo-class */
         background-color: #21262D;
@@ -63,6 +63,6 @@ body {
     
             font-size: 200%;
     
-            color: #FF7B72;
+            color: #ff5900;
     
         }
